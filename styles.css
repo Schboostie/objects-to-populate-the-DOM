@@ -1,6 +1,5 @@
 .user-card {
- 
-    display: flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -13,6 +12,8 @@
   font-family: 'Arial', sans-serif;
   color: #444444;
   text-align: center;
+  width: 250px; /* set a fixed width */
+  height: 300px; /* set a fixed height */
 }
 
 .user-card h2 {
@@ -25,8 +26,9 @@
   margin: 0;
 }
 
-#user-info{
+#user-info {
   display: flex;
-  align-items:flex-end;
-  
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
+
